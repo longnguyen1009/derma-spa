@@ -3327,6 +3327,7 @@ button.loadMore:active,button.loadMore:focus-visible,button.loadMore:visited,but
         height: 100%;
         display: inline-block
     }
+
 }
 
 @media only screen and (width: 820px) {
@@ -3843,7 +3844,7 @@ https://flickity.metafizzy.co
 .service__title h3 {
     color: #fff;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 30px;
     padding-left: 5px
 }
@@ -4232,7 +4233,7 @@ https://flickity.metafizzy.co
     }
 
     .service__title h3 {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 18px
     }
 
@@ -4309,174 +4310,6 @@ https://flickity.metafizzy.co
     }
 }
 
-.compare__header {
-    max-width: 80%;
-    margin: 0 auto 24px auto
-}
-
-.compare__title.title--section h2 {
-    padding-top: 31px;
-    padding-bottom: 12px
-}
-
-#compare {
-    margin-top: -7
-}
-
-#achievement .achievement__scroll {
-    overflow-x: scroll;
-    position: relative
-}
-
-.achievement__list {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    gap: 10px
-}
-
-.achievement__item {
-    min-height: 180px;
-    height: 190px;
-    padding: 16px 8px;
-    overflow: hidden;
-    width: 260px;
-    height: 230px
-}
-
-.achievement__title {
-    font-size: 30px!important;
-    line-height: 1.3;
-    margin-bottom: 0
-}
-
-.achievement__headaer p {
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 0
-}
-
-.achievement__headaer {
-    overflow: hidden;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    min-height: 105px;
-    display: grid;
-    align-items: self-end
-}
-
-.achievement__item>p {
-    font-size: 14px;
-    line-height: 18px
-}
-
-.achievement__list .achievement__item:nth-child(1) .achievement__title {
-    font-size: 50px!important;
-    line-height: 45px
-}
-
-.achievement__list .achievement__item:nth-child(2) .achievement__title {
-    font-size: 36px!important;
-    line-height: 45px
-}
-
-.achievement__list .achievement__item:nth-child(3) .achievement__title {
-    font-size: 31px!important;
-    line-height: 40px
-}
-
-.service__title::after {
-    background-image: url(../images/home/service-bg-mb.png);
-    background-size: cover;
-    background-repeat: no-repeat
-}
-
-.sv-sprite {
-    background-image: url(../images/home/spritesheet-service-mb.png)
-}
-
-.sprite-cham-soc-da {
-    width: 36px;
-    height: 36px;
-    background-position: -5px -5px
-}
-
-.sprite-dich-vu-khac {
-    width: 36px;
-    height: 36px;
-    background-position: -51px -5px
-}
-
-.sprite-dieu-tri-man {
-    width: 36px;
-    height: 36px;
-    background-position: -5px -51px
-}
-
-.sprite-dieu-tri-mun {
-    width: 36px;
-    height: 36px;
-    background-position: -51px -51px
-}
-
-.sprite-dieu-tri-seo {
-    width: 36px;
-    height: 36px;
-    background-position: -97px -5px
-}
-
-.sprite-dieu-tri-tham {
-    width: 37px;
-    height: 36px;
-    background-position: -97px -51px
-}
-
-.sprite-giam-beo {
-    width: 36px;
-    height: 36px;
-    background-position: -5px -97px
-}
-
-.sprite-tham-my {
-    width: 36px;
-    height: 36px;
-    background-position: -51px -97px
-}
-
-.services__content .service__title {
-    height: 40px
-}
-
-.service__img,.service__item .service__img a {
-    display: inline-block;
-    height: 100%;
-    width: 100%
-}
-
-.footer__main {
-    padding: 26px 0 25px 0
-}
-
-.compare__nav ul {
-    display: flex;
-    gap: 5px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: auto;
-    overflow-x: scroll;
-    justify-content: flex-start;
-    padding: 0 10px;
-    padding-top: 10px
-}
-
-.compare__nav a {
-    font-size: 14px
-}
-
-#compare .owl-nav.disabled {
-    display: none
-}
-
 @media (min-width: 500px) and (max-width:1024px) {
     #branch {
         display:block
@@ -4540,9 +4373,6 @@ https://flickity.metafizzy.co
 }
 
 @media (max-width: 479px) {
-    .services__content.grid {
-        grid-template-columns:1fr 1fr
-    }
 
     .nghe-si__content.flex.row-1 {
         gap: 7px;
@@ -9658,7 +9488,6 @@ span.airdatepicker--time-current-ampm {
     }
     .taisao-list.grid{
         display: grid;
-        grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
     .taisao-list-item .taisao-title {
@@ -9669,11 +9498,190 @@ span.airdatepicker--time-current-ampm {
         object-fit: cover;
     }
 
-    .services__content.grid {
-        grid-template-columns: 1fr 1fr;
+    .service__title::after {
+        background-image: url(../images/home/service-bg-mb.png);
+        background-size: cover;
+        background-repeat: no-repeat
     }
 
+    .service__title h3 {
+        font-size: 14px;
+        line-height: 18px
+    }
+
+    /* SEAUL */
+    .compare__header {
+        max-width: 80%;
+        margin: 0 auto 24px auto
+    }
+    
+    .compare__title.title--section h2 {
+        padding-top: 31px;
+        padding-bottom: 12px
+    }
+    
+    #compare {
+        margin-top: -7
+    }
+    
+    #achievement .achievement__scroll {
+        overflow-x: scroll;
+        position: relative
+    }
+    
+    .achievement__list {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        gap: 10px
+    }
+    
+    .achievement__item {
+        min-height: 180px;
+        height: 190px;
+        padding: 16px 8px;
+        overflow: hidden;
+        width: 260px;
+        height: 230px
+    }
+    
+    .achievement__title {
+        font-size: 30px!important;
+        line-height: 1.3;
+        margin-bottom: 0
+    }
+    
+    .achievement__headaer p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 0
+    }
+    
+    .achievement__headaer {
+        overflow: hidden;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        min-height: 105px;
+        display: grid;
+        align-items: self-end
+    }
+    
+    .achievement__item>p {
+        font-size: 14px;
+        line-height: 18px
+    }
+    
+    .achievement__list .achievement__item:nth-child(1) .achievement__title {
+        font-size: 50px!important;
+        line-height: 45px
+    }
+    
+    .achievement__list .achievement__item:nth-child(2) .achievement__title {
+        font-size: 36px!important;
+        line-height: 45px
+    }
+    
+    .achievement__list .achievement__item:nth-child(3) .achievement__title {
+        font-size: 31px!important;
+        line-height: 40px
+    }
+    
+    .sv-sprite {
+        background-image: url(../images/home/spritesheet-service-mb.png)
+    }
+    
+    .sprite-cham-soc-da {
+        width: 36px;
+        height: 36px;
+        background-position: -5px -5px
+    }
+    
+    .sprite-dich-vu-khac {
+        width: 36px;
+        height: 36px;
+        background-position: -51px -5px
+    }
+    
+    .sprite-dieu-tri-man {
+        width: 36px;
+        height: 36px;
+        background-position: -5px -51px
+    }
+    
+    .sprite-dieu-tri-mun {
+        width: 36px;
+        height: 36px;
+        background-position: -51px -51px
+    }
+    
+    .sprite-dieu-tri-seo {
+        width: 36px;
+        height: 36px;
+        background-position: -97px -5px
+    }
+    
+    .sprite-dieu-tri-tham {
+        width: 37px;
+        height: 36px;
+        background-position: -97px -51px
+    }
+    
+    .sprite-giam-beo {
+        width: 36px;
+        height: 36px;
+        background-position: -5px -97px
+    }
+    
+    .sprite-tham-my {
+        width: 36px;
+        height: 36px;
+        background-position: -51px -97px
+    }
+    
+    .services__content .service__title {
+        height: 40px
+    }
+    
+    .service__img,.service__item .service__img a {
+        display: inline-block;
+        height: 100%;
+        width: 100%
+    }
+    
+    .footer__main {
+        padding: 26px 0 25px 0
+    }
+    
+    .compare__nav ul {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: auto;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        padding: 0 10px;
+        padding-top: 10px
+    }
+    
+    .compare__nav a {
+        font-size: 14px
+    }
+    
+    #compare .owl-nav.disabled {
+        display: none
+    }
 }
+
+@media screen and (max-width: 640px) {
+    .taisao-list.grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .services__content.grid {
+        grid-template-columns:1fr 1fr
+    }
+}
+
 @media screen and (max-width: 415px) {
     .header-main .site-title{
        font-size: 26px;
