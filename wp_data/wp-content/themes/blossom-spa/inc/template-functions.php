@@ -607,17 +607,17 @@ function blossom_spa_footer_customize(){ ?>
                     </div>
                     <div class="footer__content">
                         <h2>HỆ THỐNG LÀM ĐẸP HÀNG ĐẦU VIỆT NAM </h2>
-                        <p>SeoulSpa.Vn luôn nỗ lực không ngừng để đem đến cho khách hàng những dịch vụ hoàn hảo nhất.
+                        <p>DermaQueen.Vn luôn nỗ lực không ngừng để đem đến cho khách hàng những dịch vụ hoàn hảo nhất.
                         </p>
                     </div>
                     <div class="footer__facebook">
-                        <div class="fb-page" data-href="https://www.facebook.com/vuongquoctrimun/" data-tabs=""
+                        <div class="fb-page" data-href="https://www.facebook.com/dermaqueen.clinic/" data-tabs=""
                             data-width="" data-height="" data-small-header="false" data-adapt-container-width="false"
                             data-hide-cover="false" data-show-facepile="false">
-                            <blockquote cite="https://www.facebook.com/vuongquoctrimun/" class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/vuongquoctrimun/"
+                            <blockquote cite="https://www.facebook.com/dermaqueen.clinic/" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/dermaqueen.clinic/"
                                     rel="nofollow external noopener noreferrer" data-wpel-link="external">Thẩm Mỹ Viện
-                                    SeoulSpa.Vn</a>
+                                    DermaQueen.Vn</a>
                             </blockquote>
                         </div>
                         <div id="fb-root"></div>
@@ -632,13 +632,9 @@ function blossom_spa_footer_customize(){ ?>
                             <h4>HOTLINE</h4>
                         </div>
                         <div class="hotline rounded--10">
-                            <i class="sprite sprite-phone"></i>
+                            <i class="svg-inline--fa fa-phone-flip derma-icon-phone"></i>
                             <a href="tel:19006947" data-wpel-link="internal">
-                                1900 6947
-                            </a>
-                            <span> - </span>
-                            <a href="tel:0938453123" data-wpel-link="internal">
-                                0938 453 123
+                                0847.257.267
                             </a>
                         </div>
                     </div>
@@ -649,14 +645,14 @@ function blossom_spa_footer_customize(){ ?>
                         <ul>
                             <li>
                                 <i class="sprite sprite-email"></i>
-                                <a href="mailto:cskh@seoulspa.vn">
-                                    cskh@seoulspa.vn </a>
+                                <a href="mailto:cskh@dermaqueen.vn">
+                                    cskh@dermaqueen.vn </a>
 
                             </li>
                             <li>
                                 <i class="sprite sprite-email"></i>
-                                <a href="mailto:info@seoulspa.vn">
-                                    info@seoulspa.vn </a>
+                                <a href="mailto:info@dermaqueen.vn">
+                                    info@dermaqueen.vn </a>
                             </li>
                             <li class="ft__address">
                                 <a href="https://seoulspa.vn/chi-nhanh" rel="nofollow" data-wpel-link="internal">

@@ -12,7 +12,7 @@
             <div class="compare__title title--section">
                 <h2>HÌNH ẢNH THỰC TẾ</h2>
             </div>
-            <p>Cảm nhận sự khác biệt khi đến với hệ thống làm đẹp hàng đầu SeoulSpa.vn.</p>
+            <p>Cảm nhận sự khác biệt khi đến với hệ thống làm đẹp hàng đầu DermaQueen.Vn.</p>
         </div>
 
         <div class="compare__nav">
@@ -43,7 +43,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/11/3-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/ket-qua-tri-mun-6-300x300-1.jpg"
                                 alt="kết quả giảm béo Chị Hoa">
                         </div>
                         <div class="item__title">
@@ -54,7 +54,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/11/4-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/ket-qua-tri-mun-4-300x300-1.jpg"
                                 alt="kết quả giảm béo chị Tiên">
                         </div>
                         <div class="item__title">
@@ -66,7 +66,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/11/5-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/IzHu1Uev-9-2-300x300-1.jpg"
                                 alt="kết quả giảm béo Chị Thanh Thảo">
                         </div>
                         <div class="item__title"><p>Chị Thanh Thảo sau khi trải nghiệm liệu trình giảm béo Esonic, phần mỡ thừa ở vùng bụng
@@ -77,7 +77,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/08/IzHu1Uev-9-2-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/8-2-300x300-1.jpg"
                                 alt="kết quả giảm béo Khách hàng Thuý Vân (39 tuổi)">
                         </div>
                         <div class="item__title">
@@ -91,7 +91,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/08/8-2-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/08vhzo9r-ket-qua-tri-mun-5-300x300-1.jpg"
                                 alt="kết quả giảm béo Chị Khiết Minh (33 tuổi)">
                         </div>
                         <div class="item__title">
@@ -104,7 +104,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/08/7-2-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/7-2-300x300-1.jpg"
                                 alt="kết quả giảm béo Khách hàng Thanh Thư (36 tuổi)">
                         </div>
                         <div class="item__title">
@@ -122,7 +122,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/11/3-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/5-300x300-1.jpg"
                                 alt="kết quả giảm béo Chị Hoa">
                         </div>
                         <div class="item__title">
@@ -134,7 +134,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/11/4-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/4-300x300-1.jpg"
                                 alt="kết quả giảm béo chị Tiên">
                         </div>
                         <div class="item__title">
@@ -146,7 +146,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/11/5-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/3-300x300-1.jpg"
                                 alt="kết quả giảm béo Chị Thanh Thảo">
                         </div>
                         <div class="item__title">
@@ -158,7 +158,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/08/IzHu1Uev-9-2-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/ket-qua-tri-mun-6-300x300-1.jpg"
                                 alt="kết quả giảm béo Khách hàng Thuý Vân (39 tuổi)">
                         </div>
                         <div class="item__title">
@@ -172,7 +172,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/08/8-2-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/ket-qua-tri-mun-4-300x300-1.jpg"
                                 alt="kết quả giảm béo Chị Khiết Minh (33 tuổi)">
                         </div>
                         <div class="item__title">
@@ -185,7 +185,7 @@
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
-                                src="https://cdn.diemnhangroup.com/seoulspa/2022/08/7-2-300x300.jpg"
+                                src="/wp-content/uploads/2023/03/IzHu1Uev-9-2-300x300-1.jpg"
                                 alt="kết quả giảm béo Khách hàng Thanh Thư (36 tuổi)">
                         </div>
                         <div class="item__title">
@@ -199,7 +199,7 @@
             </div>
 
             <div id="tab-dich-vu-phun-may" class="tabContent tab-panel">
-                <div class="category__item resize owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -267,7 +267,7 @@
                         <div class="item__title">
                             
                             <p style="text-align: justify;">Hàng chân mày mỏng, mọc lởm chởm và nhợt nhạt của chị Phan
-                                Tố Nhi đã được điều chỉnh dày, đậm và chuẩn tự nhiên sau khi phun mày tại SeoulSpa.Vn
+                                Tố Nhi đã được điều chỉnh dày, đậm và chuẩn tự nhiên sau khi phun mày tại DermaQueen.Vn
                             </p>
                             
                         </div>
@@ -276,7 +276,7 @@
             </div>
 
             <div id="tab-dich-vu-phun-moi" class="tabContent tab-panel">
-                <div class="category__item resize owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -333,7 +333,7 @@
                         </div>
                         <div class="item__title">
 <p>Chị Lâm Như Ý có thể tạm biệt đôi môi kém sắc với đôi môi đỏ quyền lực và nổi bật sau khi
-                                phun môi tại SeoulSpa.Vn</p>
+                                phun môi tại DermaQueen.Vn</p>
                             
                         </div>
                     </div>
@@ -346,7 +346,7 @@
                         <div class="item__title">
                             
                             <p style="text-align: justify;">Bờ môi kém sắc của chị Nguyễn Thị Thu Hằng giờ đã quyến rũ
-                                và thu hút hơn sau khi phun môi tại SeoulSpa.Vn</p>
+                                và thu hút hơn sau khi phun môi tại DermaQueen.Vn</p>
                             
                         </div>
                     </div>
@@ -354,7 +354,7 @@
             </div>
 
             <div id="tab-dieu-tri-tham" class="tabContent tab-panel">
-                <div class="category__item resize owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -363,7 +363,7 @@
                         </div>
                         <div class="item__title">
 <p><em>Khuôn mặt của chị Vũ Như (26 tuổi) trở nên láng mịn và căng bóng sau khi trị thâm tại
-                                    SeoulSpa.Vn</em></p>
+                                    DermaQueen.Vn</em></p>
                             
                         </div>
                     </div>
@@ -387,7 +387,7 @@
                         </div>
                         <div class="item__title">
 <p><em>Gương mặt đều màu và mịn màng của chị Ngọc Ngà (28 tuổi) sau khi loại bỏ thâm và mụn
-                                    tại SeoulSpa.Vn</em></p>
+                                    tại DermaQueen.Vn</em></p>
                             
                         </div>
                     </div>
@@ -411,7 +411,7 @@
                         </div>
                         <div class="item__title">
 <p><em>Làn da của anh Hoàng Thiên (25 tuổi) đã được loại bỏ thâm mụn hoàn toàn sau liệu
-                                    trình trị thâm tại SeoulSpa.Vn</em></p>
+                                    trình trị thâm tại DermaQueen.Vn</em></p>
                             
                         </div>
                     </div>
@@ -431,7 +431,7 @@
             </div>
 
             <div id="tab-dieu-tri-nam" class="tabContent tab-panel">
-                <div class="category__item resize owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -439,7 +439,7 @@
                                 alt="kết quả trị nám chị Hồng (50 tuổi)">
                         </div>
                         <div class="item__title">
-<p><em>Trước và sau khi trị nám tại SeoulSpa.Vn đã giúp chị Hồng (50 tuổi) tự tin tỏa sáng
+<p><em>Trước và sau khi trị nám tại DermaQueen.Vn đã giúp chị Hồng (50 tuổi) tự tin tỏa sáng
                                     hơn</em></p>
                             
                         </div>
@@ -464,7 +464,7 @@
                         </div>
                         <div class="item__title">
 <p><em>Nám lâu năm của chị Như Nguyệt (40 tuổi) đã được cải thiện rõ rệt sau liệu trình điều
-                                    trị tại SeoulSpa.Vn</em></p>
+                                    trị tại DermaQueen.Vn</em></p>
                             
                         </div>
                     </div>
@@ -511,7 +511,7 @@
             </div>
         </div>
 
-        <div class="compare__more more--style"><a href="https://seoulspa.vn/ket-qua-dieu-tri"
+        <div class="compare__more more--style"><a href="/ket-qua-dieu-tri"
                 data-wpel-link="internal">Xem thêm</a></div>
     </div>
 </section>

@@ -6,7 +6,7 @@
  */
 
 // $home_sections = blossom_spa_get_home_sections();
-$home_sections = ['banner', 'taisaochonderma', 'dichvunoibat', 'cosovatchat', 'hinhanhthucte', 'home-call-action'];
+$home_sections = ['banner', 'taisaochonderma', 'dichvunoibat', 'cosovatchat', 'hinhanhthucte', 'tiplamdep-sukien', 'home-call-action', 'hinhanh-hoatdong'];
 
 if ( 'posts' == get_option( 'show_on_front' ) ) { //Show Static Blog Page
     include( get_home_template() );

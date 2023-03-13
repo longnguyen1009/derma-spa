@@ -41,19 +41,12 @@ jQuery(document).ready(function () {
         dots:true,
         margin:15,
         autoplay:false,
-        responsiveClass:true,
-        lazyLoad:true,
-        smartSpeed:1200,
         responsive:{
             0:{
                 items:2,
-                nav:false,
-                loop:false
             },
-            1024:{
+            768:{
                 items:4,
-                nav:false,
-                loop:false
             }
         }
     });
@@ -72,6 +65,7 @@ jQuery(document).ready(function () {
     })
 
     tabLinksClickCommon(".compare__nav .flex-center .tabLinks:nth-child(1)");
+
 	jQuery('.tabLinks').click(function() {
         tabLinksClickCommon(this);
     })
@@ -96,6 +90,27 @@ function tabLinksClickCommon(element) {
         return false;
     }
 }
+
+jQuery(document).ready(function () {
+    var getEleClose = jQuery('.show_popup--js');
+    getEleClose.on('click', () => {
+        jQuery('#img-popup-kqdt').css('display', 'none');
+    });
+
+    var getEleImg = jQuery(".img_show_popup");
+    getEleImg.each(function( index, element ) {
+        jQuery(element).on('click', function(e) {
+            openPopupImg(e.target.src)
+        });
+    });
+});
+
+function openPopupImg(imgLink) {
+    jQuery('#img-popup-kqdt').css('display', 'block');
+    let popupHTML = `<div class="box-img-popup"><img class="item_img_popup"  src="${imgLink}"></div>`;
+    jQuery('.show_popup--js').html(popupHTML);
+}
+
 
 
 
