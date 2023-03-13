@@ -15,7 +15,7 @@ $button2_url      = get_theme_mod( 'banner_cta2_url', '#' );
         
 if( $ed_banner == 'static_banner' && has_custom_header() ){ ?>
     <div id="banner_section" class="site-banner<?php if( has_header_video() ) echo esc_attr( ' video-banner' ); ?>">
-        <div class="owl-carousel">
+        <div class="owl-carousel banner-list">
             <div class="slider-item">
                 <img src="https://drthaiha.vn/wp-content/uploads/2019/05/banner002.jpg" alt="">
             </div>

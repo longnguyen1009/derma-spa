@@ -3684,7 +3684,7 @@ https://flickity.metafizzy.co
     opacity: 1
 }
 
-#compare .flickity-prev-next-button {
+/* #compare .flickity-prev-next-button {
     opacity: 1
 }
 
@@ -3704,7 +3704,7 @@ https://flickity.metafizzy.co
 .compare__item {
     width: 23.8%;
     margin-right: 20px
-}
+} */
 
 .carousel.image-sale .carousel-cell {
     height: 70px
@@ -3985,8 +3985,15 @@ https://flickity.metafizzy.co
     margin-bottom: .1em
 }
 
-#compare .owl-nav.disabled {
+/* #compare .owl-nav.disabled {
     display: block
+} */
+#compare .owl-dots {
+    margin-top: 0;
+    padding-top: 15px;
+}
+.compare__tab {
+    overflow: hidden;
 }
 
 .item__image a {

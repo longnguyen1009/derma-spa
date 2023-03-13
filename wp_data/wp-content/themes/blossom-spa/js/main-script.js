@@ -4,7 +4,7 @@ jQuery(window).resize(function() {
 
 jQuery(document).ready(function () {
     addMarginBottomHeader();
-    jQuery('.owl-carousel').owlCarousel({
+    jQuery('#banner_section .banner-list').owlCarousel({
         loop:true,
         nav:true,
         navText : ['<span class="fa fa-chevron-circle-left" aria-hidden="true"></span>','<span class="fa fa-chevron-circle-right" aria-hidden="true"></span>'],
@@ -34,6 +34,32 @@ jQuery(document).ready(function () {
     });
 });
 
+jQuery(document).ready(function () {
+    jQuery('.compare__tab .owl-carousel.category__item').owlCarousel({
+        loop:false,
+        nav:false,
+        dots:true,
+        margin:15,
+        autoplay:false,
+        responsiveClass:true,
+        lazyLoad:true,
+        smartSpeed:1200,
+        responsive:{
+            0:{
+                items:2,
+                nav:false,
+                loop:false
+            },
+            1024:{
+                items:4,
+                nav:false,
+                loop:false
+            }
+        }
+    });
+});
+
+
 function addMarginBottomHeader() {
     jQuery('.site-header').next().css("margin-top", jQuery('.site-header').outerHeight() + 'px');
 }
@@ -43,6 +69,11 @@ jQuery(document).ready(function () {
     taisaoActiveFucntion(".taisao-list-item:first");
 	jQuery('.taisao-list-item').click(function() {
         taisaoActiveFucntion(this);
+    })
+
+    tabLinksClickCommon(".compare__nav .flex-center .tabLinks:nth-child(1)");
+	jQuery('.tabLinks').click(function() {
+        tabLinksClickCommon(this);
     })
 });
 function taisaoActiveFucntion(element) {
@@ -54,6 +85,19 @@ function taisaoActiveFucntion(element) {
         return false;
     }
 }
+
+function tabLinksClickCommon(element) {
+    if(!jQuery(element).hasClass('active')){
+        jQuery('.tabContent.active').removeClass('active');
+        jQuery(jQuery(element).attr('data-target')).addClass('active');
+        jQuery('.tabLinks.active').removeClass('active');
+        jQuery(element).addClass('active');
+    } else {
+        return false;
+    }
+}
+
+
 
 
 
