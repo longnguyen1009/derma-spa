@@ -9299,8 +9299,11 @@ span.airdatepicker--time-current-ampm {
 }
 
 .main-navigation ul li {
-    margin-left: 15px;
+    margin-left: 14px;
 }
+
+/* MENU */
+
 
 /* taisaoderma */
 .taisao-content-left {
@@ -9383,6 +9386,12 @@ span.airdatepicker--time-current-ampm {
     border-radius: 7px 7px 0 0;
 }
 
+/* MENU CSS */
+#primary-menu a:not([href]):not([class]) {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 1400px) {
     .site-branding {
@@ -9432,7 +9441,7 @@ span.airdatepicker--time-current-ampm {
         display: none;
     }
     .main-navigation ul li {
-        margin-left: 12px;
+        margin-left: 11px;
     }
 }
 

@@ -156,7 +156,7 @@ function blossom_spa_content_start(){
                             
                             if( 'post' === get_post_type() ){
                                 echo '<div class="entry-meta">';
-                                blossom_spa_posted_by();
+                                // blossom_spa_posted_by();
                                 blossom_spa_posted_on();
                                 blossom_spa_comment_count();
                                 echo '</div>';
@@ -186,7 +186,7 @@ if( ! function_exists( 'blossom_spa_posts_per_page_count' ) ):
 function blossom_spa_posts_per_page_count(){
     $pagination = get_theme_mod( 'pagination_type','numbered' );
     global $wp_query;
-    if( is_archive() || is_search() && $wp_query->found_posts > 0 ) {
+    if(is_search() && $wp_query->found_posts > 0 ) {
         $posts_per_page = get_option( 'posts_per_page' );
         $paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
         $start_post_number = 0;
@@ -228,7 +228,7 @@ function blossom_spa_figure_content() {
     echo '<figure class="post-thumbnail">';
         blossom_spa_post_thumbnail();
         blossom_spa_category();
-        blossom_spa_posted_by();
+        // blossom_spa_posted_by();
     echo '</figure>';
 
 }
@@ -290,7 +290,7 @@ if( ! function_exists( 'blossom_spa_entry_footer' ) ) :
  * Entry Footer
 */
 function blossom_spa_entry_footer(){ 
-        $readmore = get_theme_mod( 'read_more_text', __( 'Read More', 'blossom-spa' ) ); ?>
+        $readmore = get_theme_mod( 'read_more_text', __( 'Read Moree', 'blossom-spa' ) ); ?>
     	<footer class="entry-footer">
     		<?php
     			blossom_spa_tag();
