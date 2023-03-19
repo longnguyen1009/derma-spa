@@ -111,6 +111,12 @@ function openPopupImg(imgLink) {
     jQuery('.show_popup--js').html(popupHTML);
 }
 
+//not clickable item
+jQuery(document).ready(function () {
+    jQuery('.item-notclickable>a').removeAttr("href");
+});
+
+
 
 
 

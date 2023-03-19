@@ -1,3 +1,4 @@
 .env
 wp_data/wp-content/uploads
+wp_data/wp-content/plugins
 nginx-conf
