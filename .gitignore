@@ -1,3 +1,3 @@
 .env
-wp-data/wp-content/uploads
+wp_data/wp-content/uploads
 nginx-conf
