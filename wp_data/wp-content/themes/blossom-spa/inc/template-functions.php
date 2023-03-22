@@ -114,60 +114,41 @@ function blossom_spa_content_start(){
     if( ! ( is_front_page() && ! is_home() && $home_sections ) ){ //Make necessary adjust for pg template.
         echo '<div id="content" class="site-content">'; 
         if( !( blossom_spa_is_woocommerce_activated() && is_product() ) ) : ?>
-            <header class="page-header" style="background-image: url( '<?php echo esc_url( $background_image ); ?>' );">
+            <header class="page-header">
                 <div class="container">
-        			<?php        
-                        if ( is_home() && ! is_front_page() ){ 
-                            echo '<h1 class="page-title">';
-                			single_post_title();
-                            echo '</h1>';
-                        }
+        			<?php     
+                        blossom_spa_breadcrumb();   
+                        // if ( is_home() && ! is_front_page() ){ 
+                        //     echo '<h1 class="page-title">';
+                		// 	single_post_title();
+                        //     echo '</h1>';
+                        // }
                         
-                        if( is_archive() ) :
-                            if( is_author() ){
-                                $author_title = get_the_author_meta( 'display_name' );
-                                $author_description = get_the_author_meta( 'description' ); ?>
-                                <div class="author-section">
-                                    <figure class="author-img"><?php echo get_avatar( get_the_author_meta( 'ID' ), 230 ); ?></figure>
-                                    <div class="author-content-wrap">
-                                        <?php 
-                                            echo '<h3 class="author-name">' . esc_html__( 'All Posts By: ','blossom-spa' ) . esc_html( $author_title ) . '</h3>';
-                                            echo '<div class="author-content">' . wpautop( wp_kses_post( $author_description ) ) . '</div>';
-                                        ?>      
-                                    </div>
-                                </div>
-                                <?php 
-                            }else{
-                                the_archive_title();
-                                the_archive_description( '<div class="archive-description">', '</div>' );
-                            }
-                        endif;
+                        // if( is_search() ){ 
+                        //     echo '<h1 class="page-title">' . esc_html__( 'SEARCH RESULTS FOR:', 'blossom-spa' ) . '</h1>';
+                        //     get_search_form();
+                        // }
                         
-                        if( is_search() ){ 
-                            echo '<h1 class="page-title">' . esc_html__( 'SEARCH RESULTS FOR:', 'blossom-spa' ) . '</h1>';
-                            get_search_form();
-                        }
-                        
-                        if( is_singular() ){
+                        // if( is_singular() ){
                             
-                            blossom_spa_category();
+                        //     blossom_spa_category();
                             
-                            the_title( '<h1 class="page-title">', '</h1>' );
+                        //     the_title( '<h1 class="page-title">', '</h1>' );
                             
-                            if( 'post' === get_post_type() ){
-                                echo '<div class="entry-meta">';
-                                // blossom_spa_posted_by();
-                                blossom_spa_posted_on();
-                                blossom_spa_comment_count();
-                                echo '</div>';
-                            }
+                        //     if( 'post' === get_post_type() ){
+                        //         echo '<div class="entry-meta">';
+                        //         // blossom_spa_posted_by();
+                        //         blossom_spa_posted_on();
+                        //         blossom_spa_comment_count();
+                        //         echo '</div>';
+                        //     }
 
-                        }
-                        if( is_404() ) {
-                            echo '<h1 class="page-title">' . esc_html__( 'Uh-Oh...','blossom-spa' ) .'</h1>';
-                        }
+                        // }
+                        // if( is_404() ) {
+                        //     echo '<h1 class="page-title">' . esc_html__( 'Uh-Oh...','blossom-spa' ) .'</h1>';
+                        // }
                         
-                        blossom_spa_breadcrumb();
+                        // blossom_spa_breadcrumb();
                     ?>
                 </div>
     		</header><!-- .page-header -->
@@ -627,75 +608,33 @@ function blossom_spa_footer_customize(){ ?>
                     </div>
                 </div>
                 <div class="footer__item">
-                    <div class="footer__hotline">
+                    <div class="footer__item_row footer__hotline">
                         <div class="footer__title">
                             <h4>HOTLINE</h4>
                         </div>
                         <div class="hotline rounded--10">
-                            <i class="svg-inline--fa fa-phone-flip derma-icon-phone"></i>
                             <a href="tel:19006947" data-wpel-link="internal">
-                                0847.257.267
+                                <i class="fas fa-phone-alt derma-icon-phone"></i>
+                                <span class="derma-icon derma-icon-zalo">
+                                    <img src="https://www.wordpress-test.com/wp-content/themes/blossom-spa/images/zalo.svg">
+                                </span>
+                                <span class="derma-hotline-number">0847.257.267</span>
                             </a>
                         </div>
+                        <div class="footer__email"><a href="mailto:cskh@dermaqueen.vn"><i class="fa-solid fa-envelope"></i>&nbsp;cskh@dermaqueen.vn</a></div>
                     </div>
-                    <div class="footer__address">
+                    <div class="footer__item_row">
                         <div class="footer__title">
-                            <h4>THÔNG TIN LIÊN HỆ</h4>
+                            <h4>HỆ THỐNG CƠ SỞ</h4>
                         </div>
-                        <ul>
-                            <li>
-                                <i class="sprite sprite-email"></i>
-                                <a href="mailto:cskh@dermaqueen.vn">
-                                    cskh@dermaqueen.vn </a>
-
-                            </li>
-                            <li>
-                                <i class="sprite sprite-email"></i>
-                                <a href="mailto:info@dermaqueen.vn">
-                                    info@dermaqueen.vn </a>
-                            </li>
-                            <li class="ft__address">
-                                <a href="https://seoulspa.vn/chi-nhanh" rel="nofollow" data-wpel-link="internal">
-                                    <i class="sprite-address-2"></i>
-                                </a>
-                                <a href="https://seoulspa.vn/chi-nhanh" rel="nofollow" data-wpel-link="internal">
-                                    Hệ thống chi nhánh </a>
-                            </li>
-                        </ul>
+                        <p><i class="fa-solid fa-location-dot"></i>&nbsp;Cơ sở 1: Số 129, đường 19/5, Văn Quán, Hà Đông, Hà Nội</p>
                     </div>
-                    <div class="footer__work">
+                    <div class="footer__item_row footer__work">
                         <div class="footer__title">
                             <h4>THỜI GIAN LÀM VIỆC</h4>
                         </div>
-                        <p>8h30 - 19h30 thứ 2 - CN (Kể cả lễ, Tết)</p>
+                        <p><i class="fa-solid fa-calendar-days"></i></i>&nbsp;8h30 - 19h30 thứ 2 - CN (Kể cả lễ, Tết)</p>
                     </div>
-                    <div class="footer__app">
-                        <div class="download-app__button-img">
-                            <a href="https://play.google.com/store/apps/details?id=com.hoale.seoulspa&amp;hl=vi&amp;gl=US"
-                                target="_blank" rel="nofollow external noopener noreferrer" data-wpel-link="external">
-                                <img width="233" height="76"
-                                    src="https://seoulspa.vn/wp-content/themes/seoulspa/assets/images/single/android.png"
-                                    alt=""
-                                    data-lazy-src="https://seoulspa.vn/wp-content/themes/seoulspa/assets/images/single/android.png"
-                                    data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="233"
-                                        height="76"
-                                        src="https://seoulspa.vn/wp-content/themes/seoulspa/assets/images/single/android.png"
-                                        alt=""></noscript>
-                            </a>
-                            <a href="https://apps.apple.com/vn/app/th%E1%BA%A9m-m%E1%BB%B9-vi%E1%BB%87n-seoulspa-vn/id1457475360"
-                                target="_blank" rel="nofollow external noopener noreferrer" data-wpel-link="external">
-                                <img width="247" height="76"
-                                    src="https://seoulspa.vn/wp-content/themes/seoulspa/assets/images/single/sos.png"
-                                    alt=""
-                                    data-lazy-src="https://seoulspa.vn/wp-content/themes/seoulspa/assets/images/single/sos.png"
-                                    data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="247"
-                                        height="76"
-                                        src="https://seoulspa.vn/wp-content/themes/seoulspa/assets/images/single/sos.png"
-                                        alt=""></noscript>
-                            </a>
-                        </div>
-                    </div>
-
                 </div>
                 <div class="footer__item">
                     <div class="footer__title">
@@ -723,7 +662,7 @@ function blossom_spa_footer_customize(){ ?>
                                 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-23968"><a
                                     target="_blank" rel="nofollow"
                                     href="https://seoulspa.vn/co-hoi-tro-thanh-nhan-su-chinh-thuc-tai-he-thong-seoulspa-vn"
-                                    data-wpel-link="internal">Tuyển dụng Seoul Spa</a></li>
+                                    data-wpel-link="internal">Tuyển dụng Derma Queen</a></li>
                         </ul>
                     </div>
                     <div class="footer__certification">
