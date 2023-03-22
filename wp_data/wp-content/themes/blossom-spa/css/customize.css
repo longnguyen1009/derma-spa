@@ -613,19 +613,36 @@ main {
     padding: 56px 0 57px 0
 }
 
-.footer__hotline {
+.footer__item_row {
     margin-bottom: 20px;
+}
+.footer__item_row p{
+    font-size: 16px;
 }
 
 .footer__hotline .hotline {
     width: 276px;
+    justify-content: left;
+    padding-left: 25px;
 }
 
-.footer__hotline .hotline span,.footer__hotline .hotline a {
+.footer__hotline .hotline {
     color: #fff;
     font-weight: 700;
     font-size: 18px;
 }
+.footer__email {
+    padding: 10px 0 0 25px;
+}
+.footer__hotline .hotline a {
+    display: flex;
+    align-items: center;
+}
+.footer__hotline .hotline .derma-icon-zalo {
+    height: 34px;
+    margin: 0 6px;
+}
+
 
 .footer__address ul li {
     list-style: none;
@@ -9225,6 +9242,13 @@ span.airdatepicker--time-current-ampm {
 
 
 /* CUSTOMIZE CSS FOR DERMA QUEEN */
+
+/* COMMON */
+
+body {
+    background: #f8f8fa;
+}
+
 /* 
  HEADER
 */
@@ -9253,6 +9277,10 @@ span.airdatepicker--time-current-ampm {
 .header-right__content .for_left h3 {
     font-size: 20px;
 }
+.header-right__content .derma-icon-locate {
+    margin-right: 5px;
+}
+
 .header-phone-btn {
     display: flex;
     align-items: center;

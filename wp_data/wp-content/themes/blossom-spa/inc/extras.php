@@ -501,7 +501,10 @@ function blossom_spa_breadcrumb() {
         echo '<div class="breadcrumb-wrapper"><div class="container" >
                 <div id="crumbs" itemscope itemtype="http://schema.org/BreadcrumbList"> 
                     <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                        <a itemprop="item" href="' . esc_url( home_url() ) . '"><span itemprop="name">' . esc_html( $home ) . '</span></a>
+                        <a itemprop="item" href="' . esc_url( home_url() ) . '">
+                            <i class="fa-solid fa-house"></i>
+                            <span itemprop="name">' . esc_html( $home ) . '</span>
+                        </a>
                         <meta itemprop="position" content="'. absint( $depth ).'" />
                         <span class="separator">' .  $delimiter  . '</span>
                     </span>';
@@ -1223,7 +1226,7 @@ function blossom_spa_header_address_contact( $echo = true, $layout = true ){
                     </div>
                     <div class="text-holder">
                         <h3>PHỤ TRÁCH CHUYÊN MÔN – BS/TS CHUYÊN KHOA DA LIỄU</h3>
-                        <span>Cơ sở 1: Số 129, đường 19/5, Văn Quán, Hà Đông, Hà Nội</span><br>
+                        <span><i class="fa-solid fa-location-dot derma-icon-locate"></i>Cơ sở 1: Số 129, đường 19/5, Văn Quán, Hà Đông, Hà Nội</span><br>
                     </div>
                 </div>
                 <div class="for_right">
