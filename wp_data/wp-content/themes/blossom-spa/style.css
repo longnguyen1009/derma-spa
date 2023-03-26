@@ -2220,6 +2220,7 @@ SIDEBARS
 =========================*/
 #content>.container {
 	display: flex;
+	flex-wrap: wrap;
 }
 #primary {
 	margin-bottom: 80px;
@@ -2233,7 +2234,7 @@ SIDEBARS
 
 .rightsidebar #primary {
 	float: left;
-    width: 75%;
+    width: 71%;
     background: #FFF;
     border-radius: 10px;
     padding: 25px 20px 30px 20px;
@@ -2242,14 +2243,14 @@ SIDEBARS
 
 .leftsidebar #primary {
 	float: right;
-	width: 75%;
+	width: 71%;
 	margin-right: 0;
 	margin-left: 20px;
 }
 
 #secondary {
 	float: left;
-	width: calc(25% - 20px);
+	width: calc(29% - 20px);
 	margin-bottom: 80px;
 	background: #FFF;
     border-radius: 10px;
@@ -6910,6 +6911,7 @@ RESPONSIVE STYLESHEET
 		width: 100%;
 		padding-right: 0;
 		padding-left: 0;
+		margin-right: 0;
 	}
 
 	#secondary {
@@ -7148,6 +7150,7 @@ RESPONSIVE STYLESHEET
 		-moz-transition: none;
 		transition: none;
 		display: none;
+		background-color: #4e275e;
 	}
 
 	.responsive-nav .main-navigation ul .sub-menu li a {
@@ -7886,9 +7889,9 @@ RESPONSIVE STYLESHEET
 	/*=========================
 	SINGLE POST
 	=========================*/
-	.single header.page-header .container {
+	/* .single header.page-header .container {
 		max-width: 420px;
-	}
+	} */
 
 	.single .content-area .article-meta {
 		position: static;
