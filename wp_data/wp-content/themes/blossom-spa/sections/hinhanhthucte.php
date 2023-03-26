@@ -39,7 +39,7 @@
         </div>
         <div class="compare__tab">
             <div id="tab-dieu-tri-mun" class="tabContent tab-panel">
-                <div class=" category__item owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme grid">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -118,7 +118,7 @@
             </div>
 
             <div id="tab-dich-vu-giam-beo" class="tabContent tab-panel">
-                <div class="category__item owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme grid">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -199,7 +199,7 @@
             </div>
 
             <div id="tab-dich-vu-phun-may" class="tabContent tab-panel">
-                <div class="category__item owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme grid">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -276,7 +276,7 @@
             </div>
 
             <div id="tab-dich-vu-phun-moi" class="tabContent tab-panel">
-                <div class="category__item owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme grid">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -354,7 +354,7 @@
             </div>
 
             <div id="tab-dieu-tri-tham" class="tabContent tab-panel">
-                <div class="category__item owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme grid">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"
@@ -431,7 +431,7 @@
             </div>
 
             <div id="tab-dieu-tri-nam" class="tabContent tab-panel">
-                <div class="category__item owl-carousel owl-theme">
+                <div class="category__item owl-carousel owl-theme grid">
                     <div class="compare__item">
                         <div class="item__image">
                             <img width="300" height="300"

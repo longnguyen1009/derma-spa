@@ -36,17 +36,20 @@ jQuery(document).ready(function () {
 
 jQuery(document).ready(function () {
     jQuery('.compare__tab .owl-carousel.category__item').owlCarousel({
+        items: 4,
+        nav: false,
+        dots: true,
+        dotsEach: true,
+        autoplay: false,
         loop:false,
-        nav:false,
-        dots:true,
-        margin:15,
-        autoplay:false,
-        responsive:{
-            0:{
-                items:2,
+        autoplayHoverPause: !0,
+        margin: 15,
+        responsive: {
+            0: {
+                items: 2
             },
-            768:{
-                items:4,
+            768: {
+                items: 4
             }
         }
     });

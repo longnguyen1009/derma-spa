@@ -35,7 +35,18 @@ jQuery(document).ready(function($) {
 
     //toggle search form
     $('.header-search').on('click', function(){
-        $('.search-form-wrap').slideDown();
+        if($(this).hasClass('active')) {
+            console.log($('.search-field').val());
+            if($('.search-field').val()) {
+                $('.search-form').submit();
+            } else {
+                $('.search-form-wrap').slideUp(); 
+            }
+            $(this).removeClass('active')
+        } else {
+            $(this).addClass('active')
+            $('.search-form-wrap').slideDown();
+        } 
     });
 
     $('.search-form-wrap .close').on('click', function(){
