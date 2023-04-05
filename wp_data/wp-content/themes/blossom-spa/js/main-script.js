@@ -117,7 +117,14 @@ function openPopupImg(imgLink) {
 //not clickable item
 jQuery(document).ready(function () {
     jQuery('.item-notclickable>a').removeAttr("href");
+
+    jQuery('.seach-submit__btn').click(function() {
+        jQuery(".search-form-wrap .search-form").submit();
+    })
 });
+
+
+
 
 
 
