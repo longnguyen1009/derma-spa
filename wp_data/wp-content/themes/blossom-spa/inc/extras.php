@@ -378,6 +378,7 @@ function blossom_spa_search_form_wrap(){
         <div class="search-form-wrap search-modal cover-modal" data-modal-target-string=".search-modal">
             <div class="search-form-inner">
                 <?php get_search_form(); ?>
+                <button class="seach-submit__btn btn-common-01">Tìm kiếm</button>
                 <button aria-label="<?php esc_attr_e( 'search form close', 'blossom-spa' ); ?>" class="close" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false"></button>
             </div>
         </div>

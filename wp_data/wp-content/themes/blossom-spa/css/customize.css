@@ -420,6 +420,17 @@ STYLE FOR MAIN
 .tabContent.active {
     display: block;
 }
+.btn-common-01 {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 4px 10px;
+    background: var(--primary-color);
+}
+.btn-common-01:hover{
+    background: #fff;
+    color: var(--primary-color);
+}
 
 .search form.search-form input::placeholder {
     color: #000;
@@ -429,7 +440,7 @@ STYLE FOR MAIN
     display: flex;
     background: #fff;
     height: 40px;
-    width: 280px;
+    width: 100%;
     border-radius: 30px;
     align-items: center;
     position: relative
@@ -623,7 +634,6 @@ main {
 .footer__hotline .hotline {
     width: 276px;
     justify-content: left;
-    padding-left: 25px;
 }
 
 .footer__hotline .hotline {
@@ -637,12 +647,18 @@ main {
 .footer__hotline .hotline a {
     display: flex;
     align-items: center;
+    padding: 0 25px;
+    width: 100%;
+}
+.footer__hotline .hotline a:hover,
+.header-phone a:hover {
+    opacity: 0.7;
+    color: #fff;
 }
 .footer__hotline .hotline .derma-icon-zalo {
     height: 34px;
     margin: 0 6px;
 }
-
 
 .footer__address ul li {
     list-style: none;
@@ -710,7 +726,7 @@ main {
 }
 
 .footer__grid {
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
 
@@ -2400,7 +2416,6 @@ button.ap__go-back {
     .header-search-wrapper {
         position: relative
     }
-
     .header-search-wrapper .search-main {
         height: 32px;
         width: 36px;
@@ -3003,10 +3018,13 @@ button.ap__go-back {
     }
 }
 
-@media (min-width: 500px) and (max-width:1024px) {
+@media (max-width:1024px) {
     .footer__grid {
-        grid-template-columns:1fr 1fr 1fr;
-        gap: 20px
+        grid-template-columns:1fr 1fr;
+        gap: 20px;
+    }
+    .footer__grid .footer__item:nth-child(3){
+        padding-left: 20px;
     }
 
     .footer__hotline .hotline {
@@ -9415,11 +9433,10 @@ body {
 }
 
 /* MENU CSS */
-#primary-menu a:not([href]):not([class]) {
+#primary-menu>.menu-item>a {
     color: #fff;
     text-decoration: none;
 }
-
 
 @media screen and (max-width: 1400px) {
     .site-branding {
@@ -9727,6 +9744,20 @@ body {
     .csvc__content.grid {
         grid-template-columns: 1fr 1fr;
     }
+
+    .footer__grid {
+        grid-template-columns:1fr;
+    }
+    .footer__grid .footer__item:nth-child(3){
+        padding-left: 0;
+    }
+    .footer__hotline .hotline{
+        margin: auto;
+    }
+    .footer__email {
+        padding: 10px 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 415px) {
@@ -9758,6 +9789,11 @@ body {
        display: block;
        font-size: 16px;
        margin-top: 3px;
+    }
+
+    .fb_iframe_widget_fluid, .fb_iframe_widget_fluid span{
+        max-width: 340px;
+        width: 100% !important;
     }
 }
 
