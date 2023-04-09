@@ -973,7 +973,7 @@ a:hover {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 60px 0;
+	margin: 0 0 50px 0;
 	/* Make sure select elements fit in widgets. */
 }
 
@@ -1587,13 +1587,14 @@ header.page-header {
 }
 
 .widget .widget-title {
-	margin-top: 0;
 	font-size: 1em;
 	font-family: var(--secondary-font);
 	font-weight: 400;
 	position: relative;
-	margin-bottom: 20px;
-	padding-bottom: 10px;
+	padding: 10px;
+	background-color: var(--primary-color);
+	color: #fff;
+	border-radius: 5px 5px 0 0;
 }
 
 #secondary .widget .widget-title {
@@ -1601,7 +1602,7 @@ header.page-header {
 	font-weight: bold;
 }
 
-.widget .widget-title::after {
+/* .widget .widget-title::after {
 	content: "";
 	background: -webkit-linear-gradient(to right, rgba(var(--primary-color-rgb), 0.5), transparent 50%);
 	background: -moz-linear-gradient(to right, rgba(var(--primary-color-rgb), 0.5), transparent 50%);
@@ -1613,12 +1614,15 @@ header.page-header {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-}
+} */
 
 .widget ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	border: 1px solid #cdcdcd;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
 }
 
 .widget ul ul {
@@ -2253,9 +2257,9 @@ SIDEBARS
 	float: left;
 	width: calc(29% - 20px);
 	margin-bottom: 80px;
-	background: #FFF;
+	/* background: #FFF; */
     border-radius: 10px;
-    padding: 25px 20px 30px 20px;
+    /* padding: 25px 20px 30px 20px; */
 }
 
 /*=============================
@@ -4226,7 +4230,13 @@ SITE FOOTER SECTION
 }
 
 .widget ul li {
-	margin-bottom: 15px;
+	/* margin-bottom: 15px; */
+	padding: 10px;
+	margin: 0;
+	border-bottom: 1px solid #cdcdcd;
+}
+.widget ul li:last-child{
+	border-bottom: none;
 }
 
 .widget ul li:last-child {
@@ -6373,12 +6383,12 @@ RARATHEME IMAGE TEXT WIDGET
 /*==============================================
 RARATHEME RECENT AND POPULAR POST WIDGET
 ==============================================*/
-.widget_bttk_popular_post ul li,
+/* .widget_bttk_popular_post ul li,
 .widget_bttk_pro_recent_post ul li {
     border-bottom: 1px solid #cdcdcd;
     margin-bottom: 15px;
     padding-bottom: 15px;
-}
+} */
 
 .widget_bttk_popular_post ul li:last-child,
 .widget_bttk_pro_recent_post ul li:last-child {
@@ -6394,11 +6404,13 @@ RARATHEME RECENT AND POPULAR POST WIDGET
 .widget_bttk_pro_recent_post ul li .entry-header .entry-title {
 	font-family: var(--secondary-font);
 	font-weight: 400;
+	font-size: 16px;
 }
 
 .widget_bttk_popular_post ul li .entry-header .entry-title a,
 .widget_bttk_pro_recent_post ul li .entry-header .entry-title a {
 	color: #000;
+	font-weight: bold;
 }
 
 .site-footer .widget_bttk_popular_post ul li .entry-header .entry-title a,

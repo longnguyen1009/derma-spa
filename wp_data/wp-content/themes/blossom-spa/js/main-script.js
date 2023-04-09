@@ -58,6 +58,7 @@ jQuery(document).ready(function () {
 
 function addMarginBottomHeader() {
     jQuery('.site-header').next().css("margin-top", jQuery('.site-header').outerHeight() + 'px');
+    jQuery('#block-3').css("top", (jQuery('.site-header').outerHeight() + 65) + 'px');
 }
 
 

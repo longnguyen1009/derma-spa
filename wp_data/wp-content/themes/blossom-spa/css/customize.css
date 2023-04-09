@@ -9438,6 +9438,52 @@ body {
     text-decoration: none;
 }
 
+/* FORM CONTACT */
+#block-3 {
+    position: sticky;
+}
+#form-dat-lich {
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 1.5em 10px;
+    font-size: 14px;
+    max-width: 315px;
+    margin: auto;
+}
+.form-sidebar__banner {
+    margin-bottom: 10px;
+}
+#form-dat-lich .datlich_item {
+    margin-bottom: 8px;
+}
+#form-dat-lich .datlich_item input {
+    height: 35px;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+#form-dat-lich .datlich_item textarea {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+#form-dat-lich .datlich_submit>p {
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+#form-dat-lich .datlich_submit input {
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px 0;
+    font-size: 18px;
+}
+#form-dat-lich .datlich_submit .wpcf7-spinner {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 35px);
+    transform: translate(-50%, -50%);
+}
+
+
 @media screen and (max-width: 1400px) {
     .site-branding {
         width: 360px;
