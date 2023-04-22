@@ -865,6 +865,8 @@ function blossom_spa_sidebar( $class = false ){
     $page_layout = get_theme_mod( 'page_sidebar_layout', 'right-sidebar' ); //Default Layout Style for Pages
     $post_layout = get_theme_mod( 'post_sidebar_layout', 'right-sidebar' ); //Default Layout Style for Posts
     $layout      = get_theme_mod( 'layout_style', 'right-sidebar' ); //Default Layout Style for Styling Settings
+
+    $listArchiveNotSidebar = ['cham-soc-da','dieu-tri-da', 'lam-dep-cong-nghe-cao', 'tham-my', 'san-pham'];
     
     if( is_singular( array( 'page', 'post' ) ) ){         
         if( get_post_meta( $post->ID, '_blossom_spa_sidebar_layout', true ) ){
@@ -915,7 +917,9 @@ function blossom_spa_sidebar( $class = false ){
         }else{
             $return = $class ? 'full-width' : false;
         } 
-    }elseif( 'blossom-portfolio' === get_post_type() ){ //For Portfolio Post Type
+    } elseif(is_post_type_archive() && in_array(get_post_type(), $listArchiveNotSidebar)){ //For Portfolio Post Type
+        $return = 'full-width'; //Fullwidth
+    } elseif( 'blossom-portfolio' === get_post_type() ){ //For Portfolio Post Type
         $return = $class ? 'full-width' : false; //Fullwidth
     }elseif( is_404() ){
         $return = $class ? 'full-width' : false;
