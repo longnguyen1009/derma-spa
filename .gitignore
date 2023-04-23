@@ -1,6 +1,6 @@
 .env
 wp_data/wp-content/uploads
-nginx-conf
+nginx-conf/
 
 wp_data/wp-content/plugins
 wp_data/wp-content/languages/plugins
