@@ -4,3 +4,5 @@ nginx-conf
 
 wp_data/wp-content/plugins
 wp_data/wp-content/languages/plugins
+wp_data/wp-admin/
+wp_data/wp-includes/
